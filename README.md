@@ -8,14 +8,13 @@ A one pager listing the different emoji emoticons supported on
 [Trac](http://trac-hacks.org/wiki/TracEmojiPlugin),
 [Flowdock](https://www.flowdock.com/),
 [Sprint.ly](https://sprint.ly/),
-[Kandan](http://kandanapp.com/),
-[Textbox.io](https://textbox.io/),
+[Kandan](http://getkandan.com/),
+[Textbox.io](http://textbox.io/),
 [Kippt](http://kippt.com),
 [Redmine](https://github.com/tmy/redmine_gemoji),
 [JabbR](http://about.jabbr.net/),
 [Trello](https://trello.com/),
 [Hall](https://hall.com/),
-[Plug.dj](http://plug.dj/),
 [Qiita](http://qiita.com/),
 [Zendesk](http://zendesk.com/),
 [Ruby-China](http://ruby-china.org/),
@@ -36,72 +35,66 @@ A one pager listing the different emoji emoticons supported on
 [Subrosa](https://subrosa.io),
 [Sococo](https://www.sococo.com),
 [Quip](https://quip.com),
-[And Bang](https://andbang.com)
+[And Bang](https://andbang.com),
 [Bonusly](https://bonus.ly),
-& [Discourse](https://discourse.org).
+[Discourse](https://discourse.org),
+[Ello](https://ello.co),
+[Twemoji Awesome](http://ellekasai.github.io/twemoji-awesome/),
+[ReadMe.io](https://readme.io),
+[esa](https://esa.io/),
+[DBook](https://www.DBook.org),
+[Groups.io](https://groups.io),
+[TeamworkChat](http://www.teamwork.com/chat),
+[Damn Bugs](https://bugtrack.in),
+[Let's Chat](https://sdelements.github.io/lets-chat),
+[Buildkite](https://buildkite.com),
+[IGDB.com](https://www.igdb.com/forums),
+[ChatGrape](https://chatgrape.com),
+[Dokuwiki](https://github.com/squarefractal/githubemoji-dokuwiki),
+[Usersnap](https://usersnap.com),
+[Discord](https://discordapp.com/),
+[Status Hero](https://statushero.com/),
+[Morfy](http://morfy.org/),
+[Gitter](https://gitter.im/),
+[Yellow](http://datenstrom.se/yellow/),
+[YouTube](https://youtube.com),
+[Habitica](https://habitica.com),
+[Mattermost](http://www.mattermost.org/)
+and [Kanban Tool](http://kanbantool.com/).
 
 :point_right: Check them out at our home page: http://emoji-cheat-sheet.com.
+
+## Contributions wanted - help people in their search for emojis
+
+There is a feature in the cheat sheet that allows you to add synonyms (or alternative names) for each emoji. This is used when use the ”Instant Search” search field in the page top.
+
+You can see how this works in a snapshot of [public/index.html on line 154](https://github.com/arvida/emoji-cheat-sheet.com/blob/f8e4a0bf622f3b3dbbbc6a4bbfe2e7e33be6076d/public/index.html#L154). Look for `data-alternative-name` on that line.
+
+Currently there are very few synonyms in the cheat sheet and it would be great to add more to make it easier to search.
+
+Feel inspired? Do a pull request and add a synonym for your favourite emoji or maybe animal to one of the animals. :heart_eyes:
 
 ## Want to add emojis to your projects?
 
 * Ruby – [github.com/github/gemoji](https://github.com/github/gemoji), [github.com/jsw0528/rails_emoji](https://github.com/jsw0528/rails_emoji)
-* Javascript – [github.com/kof/emoticons](https://github.com/kof/emoticons)
-* Javascript – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
-* Alt. JS version (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
-* Alt. JS version (+node.js) - [github.com/frissdiegurke/emoji-parser](https://github.com/frissdiegurke/emoji-parser)
+* Ruby (+Rails) [github.com/ID25/rails_emoji_picker](https://github.com/ID25/rails_emoji_picker), [github.com/jollygoodcode/twemoji](https://github.com/jollygoodcode/twemoji)
+* Javascript (+node.js) – [github.com/kof/emoticons](https://github.com/kof/emoticons)
+* Javascript (+node.js) – [github.com/hassankhan/emojify.js](https://github.com/hassankhan/emojify.js)
+* Javascript (+node.js) - [github.com/henrikjoreteg/emoji-images.js](https://github.com/HenrikJoreteg/emoji-images.js)
+* Javascript (+node.js) - [github.com/frissdiegurke/emoji-parser](https://github.com/frissdiegurke/emoji-parser)
 * Objective-C – [https://github.com/diy/nsstringemojize](https://github.com/diy/nsstringemojize)
 * Java - [https://github.com/pepibumur/emojize](https://github.com/pepibumur/emojize)
 * Python - [https://github.com/carpedm20/emoji](https://github.com/carpedm20/emoji)
+* Swift - [https://github.com/onmyway133/Smile](https://github.com/onmyway133/Smile)
 
-## Contribute
+## Contributing
 
-Do the fork and pull request dance.
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request and enjoy! :D
 
 ### Contributors
 
-* [kennethreitz](https://github.com/kennethreitz)
-* [skiz](https://github.com/skiz)
-* [jstorimer](https://github.com/jstorimer)
-* [asianmack](https://github.com/asianmack)
-* [kuinak](https://github.com/kuinak)
-* [mathiasbynens](https://github.com/mathiasbynens)
-* [bryanveloso](https://github.com/bryanveloso)
-* [joeljunstrom](https://github.com/joeljunstrom)
-* [petermanser](https://github.com/petermanser)
-* [mattiasottosson](https://github.com/mattiasottosson)
-* [wjessop](https://github.com/wjessop)
-* [igorsantos07](https://github.com/igorsantos07)
-* [pyricau](https://github.com/pyricau)
-* [JustinCampbell](https://github.com/JustinCampbell)
-* [fixlr](https://github.com/fixlr)
-* [trevorturk](https://github.com/trevorturk)
-* [ejensen](https://github.com/ejensen)
-* [talltroym](https://github.com/talltroym)
-* [juliamae](https://github.com/juliamae)
-* [vinbarnes](https://github.com/vinbarnes)
-* [madasi](https://github.com/madasi)
-* [niclasgelin](https://github.com/niclasgelin)
-* [pykler](https://github.com/pykler)
-* [arunagw](https://github.com/arunagw)
-* [lawa](https://github.com/lawa)
-* [himynameisjonas](https://github.com/himynameisjonas)
-* [martinlissmyr](https://github.com/martinlissmyr)
-* [hassankhan](https://github.com/hassankhan)
-* [leereilly](https://github.com/leereilly)
-* [drewtempelmeyer](https://github.com/drewtempelmeyer)
-* [tricknotes](https://github.com/tricknotes)
-* [bitboxer](https://github.com/bitboxer)
-* [mattrobenolt](https://github.com/mattrobenolt)
-* [wdaher](https://github.com/wdaher)
-* [HenrikJoreteg](https://github.com/HenrikJoreteg)
-* [KamranMackey](https://github.com/KamranMackey)
-* [fusion94](https://github.com/fusion94)
-* [streeter](https://github.com/streeter)
-* [take](https://github.com/take)
-* [jamescmartinez](https://github.com/jamescmartinez)
-* [nicholasserra](https://github.com/nicholasserra)
-* [MichaelBanks](https://github.com/MichaelBanks)
-* [GrahamCampbell](https://github.com/GrahamCampbell)
-* [alirayl](https://github.com/alirayl)
-* [hnrc](https://github.com/hnrc)
-* [awesomerobot](https://github.com/awesomerobot)
+Check out all the super awesome contributors at [the contributors page](https://github.com/arvida/emoji-cheat-sheet.com/graphs/contributors). :sparkling_heart:
